@@ -120,6 +120,7 @@
 }
 .product-form__size{
    float: left;
+   padding-right: 2px;
 
    
 }
@@ -128,8 +129,11 @@
 .product-cart__qty{
    float: right;
 }
+.product-form__btn {
+   padding-top: 21px;
+}
 input[type="submit"] {
-   width: 184px;
+width: 184px;
 height: 40px;
 border: 1px solid #ffffff;
 background-color: #4c525a;
@@ -140,6 +144,7 @@ opacity: 0.26;
    font-size: 14px;
    font-weight: 100;
 }
+
 .clearfix:after {
    content: ".";
    display: block;
