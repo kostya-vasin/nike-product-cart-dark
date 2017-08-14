@@ -59,13 +59,28 @@
 }
 
 .product-info {
-   padding-top: 21px
+   padding-top: 21px;
 }
 
-.product-img {
+.product-img__left {
    float: left;
    padding-left: 35px;
    padding-top: 48px;
+}
+.product-img__colors{
+    left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  margin: auto;
+   width: 100px;
+   padding-top: 71px;
+   
+  
+}
+.product-img__colors li {
+   float: left;
+   width: 12px;
 }
 
 .product-text {
@@ -89,6 +104,7 @@
    color: #e1e1e1;
    font-size: 14px;
    font-weight: 100;
+       margin-bottom: 0px;
 }
 
 .product-form {
@@ -111,20 +127,77 @@
    font-size: 14px;
    font-weight: 100;
    padding-left: 14px;
-   
    -webkit-appearance: button;
   
 }
 .box:focus {
    outline: none;
 }
+.product-form__rating {
+   position: relative;
+   
+   width: 60px;
+   height: 12px;
+   padding: 0;
+   list-style: none;
+   background: url(../img/rating-star.png);
+}
+.product-form__rating li {
+   float: left;
+   height: 12px;
+}
+.product-form__rating li.rating__star__active {
+   z-index: 1;
+	background: url(../img/rating-star.png) left bottom;
+}
+.product-form__rating li span[class*="star"]{
+   position: absolute;
+   z-index: 5;
+   display: block;
+   width: 12px;
+   height: 12px;
+   cursor: pointer;
+}
+.product-form__rating li span[class*="star"]:hover {
+   left: 0;
+   z-index: 2;
+   background: url(../img/rating-star.png) left bottom;
+}
+.product-form__rating li span.rating__star1 {
+	left: 0;
+}
+.product-form__rating li span.rating__star1:hover {
+	width: 12px;
+}
+.product-form__rating li span.rating__star2 {
+	left: 12px;
+}
+.product-form__rating li span.rating__star2:hover {
+	width: 24px;
+}
+.product-form__rating li span.rating__star3 {
+	left: 24px;
+}
+.product-form__rating li span.rating__star3:hover {
+	width: 36px;
+}
+.product-form__rating li span.rating__star4 {
+	left: 36px;
+}
+.product-form__rating li span.rating__star4:hover {
+	width: 48px;
+}
+.product-form__rating li span.rating__star5{
+	left: 48px;
+}
+.product-form__rating li span.rating__star5:hover {
+	width: 60px;
+}
+
 .product-form__size{
    float: left;
    padding-right: 2px;
-
-   
 }
-
 
 .product-cart__qty{
    float: right;
