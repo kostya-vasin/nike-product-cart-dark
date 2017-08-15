@@ -9,41 +9,65 @@
 </head>
 
 <body>
+   <!--  background start -->
    <div class="bg">
       <img src="img/main-bg/layer1.png" alt="" class="bg__layer1">
       <img src="img/main-bg/layer2.png" alt="" class="bg__layer2">
       <img src="img/main-bg/layer3.png" alt="" class="bg__layer3"></div>
+   <!--  background finish-->
+
+   <!--  product cart start -->
    <div class="product-cart">
       <div>
+         <!--        logo start -->
          <a href="#" class="product-cart__logo clearfix"><img src="img/logo.png" alt="Nike SB"></a>
       </div>
-      <div class="product-info"><div class="product-img__left"><img src="img/nike-sb-stefan-janoski-max.png" alt="nike sb stefan janoski max" class="product-img clearfix">
-      <ul class="product-img__colors">
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-      </ul>
-</div>
-         <div class="product-text">
+      <!--       logo   finish-->
+
+      <!--        img left  start -->
+      <div class="product-info">
+         <div class="product-img__left"><img src="img/nike-sb-stefan-janoski-max.png" alt="nike sb stefan janoski max" class="product-img clearfix">
+            <ul class="product-img__colors">
+               <li class="product-img__colors--navy">
+                  <div class="ellipse ellipse-navy" tabindex="0"></div>
+               </li>
+               <li class="product-img__colors--white">
+                  <div class="ellipse ellipse-white" tabindex="0"></div>
+               </li>
+               <li class="product-img__colors--red">
+                  <div class="ellipse ellipse-red" tabindex="0"></div>
+               </li>
+               <li class="product-img__colors--blue">
+                  <div class="ellipse ellipse-blue" tabindex="0"></div>
+               </li>
+
+            </ul>
+         </div>
+         <!--        img left  finish-->
+
+         <!--product info right start     -->
+         <!--        product hero  start -->
+         <div class="product-text clearfix">
             <h1 class="product-info__title">Nike SB Stefan Janoski Max</h1>
             <h2 class="product-info__subtitle">Unisex Skateboarding Shoe</h2>
          </div>
-         
-         
-         
+         <!--        product hero  finish-->
+
+         <!-- product form Size/Qty/****  start  -->
          <div class="product-form">
-           <!--*****-->
-           <div>
-              <ul class="product-form__rating clearfix">
-                 <li class="rating__star__active" style="width: 40%"><span class="rating__star1"></span></li>
-                 <li><span class="rating__star2"></span></li>
-                 <li><span class="rating__star3"></span></li>
-                 <li><span class="rating__star4"></span></li>
-                 <li><span class="rating__star5"></span></li>
-              </ul>
-           </div>
+
+            <!--*****  start-->
+            <div>
+               <ul class="product-form__rating clearfix">
+                  <li class="rating__star__active" style="width: 40%"><span class="rating__star1"></span></li>
+                  <li><span class="rating__star2"></span></li>
+                  <li><span class="rating__star3"></span></li>
+                  <li><span class="rating__star4"></span></li>
+                  <li><span class="rating__star5"></span></li>
+               </ul>
+            </div>
+            <!--*****  finish-->
+            <!--Sizing  start  -->
             <div class="product-form__size "><select class="box" name="size" size="1" form="size-qty"><option value="Size">Size &or;
             
 
@@ -54,6 +78,8 @@
     <option value="9.5">9.5</option>
     <option value="10">10</option>
     </select></div>
+            <!--    size  finish-->
+            <!--qty  start-->
             <div class="product-form__qty">
                <select class="box" name="qty" size="1" form="size-qty"><option value="qty" class="list">Qty &or; </option>
     <option value="1">1</option>
@@ -62,12 +88,16 @@
     <option value="4">4</option>
     <option value="5">5</option>
     </select></div>
+            <!--qty  finish-->
+            <!-- submit button  start-->
             <div class="product-form__btn">
                <form id="size-qty" action="#" method="post">
                   <input type="submit" value="Add to cart" class="btn">
+                  <!-- submit button  finish-->
                </form>
             </div>
          </div>
+         <!-- product form Size/Qty/**** finish       -->
       </div>
    </div>
 
