@@ -89,70 +89,47 @@
    padding-left: 35px;
 }
 
-.product-img__colors {
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   margin: auto;
+.wraper {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   margin:0 auto;
    padding-top: 71px;
    width: 100px;
-   list-style: none;
 }
-
-.product-img__colors li {
-   display: inline-block;
-   float: left;
-   padding-right: 4px;
-   padding-left: 4px;
+.shoe_color input[type="radio"] {
+  display: none;
 }
-
-.ellipse {
-   display: inline-block;
-   width: 9px;
+.shoe_color label {
+  float: left;
+ margin-left: 4px;
+   margin-right: 4px;
+  cursor: pointer;
    height: 9px;
-   border-radius: 50%;
-   vertical-align: middle;
-   text-align: center;
-   line-height: 16px;
+   width: 9px;
+   border-radius: 10px;
+   vertical-align: middle
+   
 }
-
-.ellipse-navy {
+.shoe_color--navy label {
    background-color: #1f273f;
 }
-
-.ellipse-white {
+.shoe_color--white label {
    background-color: #ffffff;
 }
-
-.ellipse-red {
-   background-color: #ed3333;
+.shoe_color--red label {
+ background-color: #ed3333;
 }
-
-.ellipse-blue {
-   background-color: #29e3ea;
+.shoe_color--blue label {
+  background-color: #29e3ea;
 }
-
-.ellipse:hover {
-   cursor: pointer;
-}
-
-.ellipse:focus {
-   width: 12px;
-   height: 12px;
-   outline: none;
-   border: 2px solid #ffffff;
-   border-radius: 50%;
-   vertical-align: middle;
-   text-align: center;
-   opacity: 0.46;
+.shoe_color input[type="radio"]:checked+label {
+ width: 12px;
+height: 12px;
+border: 2px solid #ffffff;
+opacity: 0.46;
 }
 
 
-/*product photo - finish*/
-
-
-/*product title - start*/
 
 .product-text {
    float: right;
