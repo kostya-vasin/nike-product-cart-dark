@@ -123,6 +123,7 @@
   background-color: #29e3ea;
 }
 .shoe_color input[type="radio"]:checked+label {
+       vertical-align: middle;
  width: 12px;
 height: 12px;
 border: 2px solid #ffffff;
